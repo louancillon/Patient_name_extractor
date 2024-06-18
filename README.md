@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ## Run the app
 To run the web application, use the following command: 
 ```
-python run.py
+python3 run.py
 ```
 This will start the Flask development server on http://127.0.0.1:5000/.
 You can then send a POST request to the web server with a JSON object representing a medical document: 
@@ -27,7 +27,8 @@ curl -X POST http://127.0.0.1:5000/extract-names -H "Content-Type: application/j
 To test the application, you can use the tests files in the tests directory. 
 To run the tests, use the following command: 
 ```
-python3 -m unittest tests
+python3 -m unittest discover tests #Run all the tests
+python3 -m unittest tests.test_routes #Run only test_routes file
 ```
 
 ## Project Structure
