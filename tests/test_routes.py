@@ -18,7 +18,7 @@ class RoutesTestCase(unittest.TestCase):
         """
         Helper function to load JSON data from file.
         """
-        file_path = os.path.join("/Users/louancillon/Desktop/lien_assignment/data/", filename)
+        file_path = os.path.join("/Users/louancillon/Desktop/Patient_name_extractor/data/", filename)
         with open(file_path, 'r') as f:
             return json.load(f)
 
