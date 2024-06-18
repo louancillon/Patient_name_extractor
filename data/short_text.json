@@ -1,0 +1,28 @@
+{
+    "pages": [
+        {
+            "words": [
+                {"text": "Hello", "bbox": {"x_min": 0.12, "x_max": 0.19, "y_min": 0.09, "y_max": 0.1}},
+                {"text": "a", "bbox": {"x_min": 0.31, "x_max": 0.33, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "test", "bbox": {"x_min": 0.33, "x_max": 0.38, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "to", "bbox": {"x_min": 0.38, "x_max": 0.41, "y_min": 0.12, "y_max": 0.1}},
+                {"text": ",", "bbox": {"x_min": 0.19, "x_max": 0.21, "y_min": 0.09, "y_max": 0.1}},
+                {"text": "This", "bbox": {"x_min": 0.21, "x_max": 0.28, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "if", "bbox": {"x_min": 0.45, "x_max": 0.47, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "is", "bbox": {"x_min": 0.28, "x_max": 0.31, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "see", "bbox": {"x_min": 0.41, "x_max": 0.45, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "the", "bbox": {"x_min": 0.47, "x_max": 0.5, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "function", "bbox": {"x_min": 0.5, "x_max": 0.57, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "Best", "bbox": {"x_min": 0.12, "x_max": 0.19, "y_min": 0.16, "y_max": 0.17}},
+                {"text": ",", "bbox": {"x_min": 0.19, "x_max": 0.21, "y_min": 0.16, "y_max": 0.17}},
+                {"text": "is", "bbox": {"x_min": 0.57, "x_max": 0.6, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "working", "bbox": {"x_min": 0.6, "x_max": 0.67, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "well", "bbox": {"x_min": 0.67, "x_max": 0.71, "y_min": 0.12, "y_max": 0.1}},
+                {"text": ".", "bbox": {"x_min": 0.71, "x_max": 0.73, "y_min": 0.12, "y_max": 0.1}},
+                {"text": "Testteam", "bbox": {"x_min": 0.21, "x_max": 0.33, "y_min": 0.16, "y_max": 0.17}}
+            ]
+        }
+    ],
+    "original_page_count": 1,
+    "needs_ocr_case": "no_ocr"
+}
