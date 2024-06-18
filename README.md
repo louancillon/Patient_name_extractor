@@ -1,13 +1,22 @@
 # Patient_name_extractor
-This project is a simple webserver, implemented using Flask web application, that extracts patient names from medical documents using the NameExtractor class.
+This project is a simple webserver, implemented using Flask web application, that extracts patient names from medical documents using the `NameExtractor` class.
 
 ## Installation
-To install the required packages, run: pip install -r requirements.txt
+To install the required packages, run: 
+```
+pip install -r requirements.txt
+```
 
 ## Run the app
-To run the web application, use the following command: python run.py
+To run the web application, use the following command: 
+```
+python run.py
+```
 This will start the Flask development server on http://127.0.0.1:5000/.
-You can then send a POST request to the web server with a JSON object representing a medical document: curl -X POST http://127.0.0.1:5000/extract-names -H "Content-Type: application/json" -d '<jsonfile>'
+You can then send a POST request to the web server with a JSON object representing a medical document: 
+```
+curl -X POST http://127.0.0.1:5000/extract-names -H "Content-Type: application/json" -d '<jsonfile>'
+```
 
 ### Workflow:
 1. Client sends a POST request to /extract-names with the document JSON.
@@ -16,11 +25,15 @@ You can then send a POST request to the web server with a JSON object representi
 
 ## Test the app
 To test the application, you can use the tests files in the tests directory. 
-To run the tests, use the following command: python3 -m unittest tests
+To run the tests, use the following command: 
+```
+python3 -m unittest tests
+```
 
 ## Project Structure
 
 The project has the following structure:
+```
 Patient_name_extractor/
 │
 ├── app/
@@ -41,18 +54,19 @@ Patient_name_extractor/
 ├── requirements.txt
 ├── README.md
 └── run.py
+```
 
-app/: Contains the Flask application code.
-    name_extractor.py: Defines the NameExtractor class, which is used to extract patient names from medical documents.
-    routes.py: Defines the Flask routes for the web application.
-tests/: Contains the unit tests for the application.
-    test_routes.py: Defines the unit tests for the Flask routes.
-    test_name_extractor.py: Defines the unit tests for the NameExtractor class.
-data/: Contains the json files corresponding to the input medical documents.
+- **app/**: Contains the Flask application code.
+    - **name_extractor.py**: Defines the NameExtractor class, which is used to extract patient names from medical documents.
+    - **routes.py**: Defines the Flask routes for the web application.
+- **tests/**: Contains the unit tests for the application.
+    - **test_routes.py**: Defines the unit tests for the Flask routes.
+    - **test_name_extractor.py**: Defines the unit tests for the NameExtractor class.
+- **data/**: Contains the json files corresponding to the input medical documents.
 
-requirements.txt: Lists the required packages for the application.
-README.md: This file.
-run.py: Starts the Flask development server.
+- **requirements.txt**: Lists the required packages for the application.
+-**README.md**: This file.
+-**run.py**: Starts the Flask development server.
 
 
 ## TODO/Improvements : 
